@@ -1,5 +1,5 @@
 <?php
-echo"Getting a Git Repository
+print("Getting a Git Repository
 You typically obtain a Git repository in one of two ways:
 
 You can take a local directory that is currently not under version control, and turn it into a Git repository, or
@@ -45,5 +45,5 @@ If you want to clone the repository into a directory named something other than 
 $ git clone https://github.com/libgit2/libgit2 mylibgit
 That command does the same thing as the previous one, but the target directory is called mylibgit.
 
-Git has a number of different transfer protocols you can use. The previous example uses the https:// protocol, but you may also see git:// or user@server:path/to/repo.git, which uses the SSH transfer protocol. Getting Git on a Server will introduce all of the available options the server can set up to access your Git repository and the pros and cons of each.";
+Git has a number of different transfer protocols you can use. The previous example uses the https:// protocol, but you may also see git:// or user@server:path/to/repo.git, which uses the SSH transfer protocol. Getting Git on a Server will introduce all of the available options the server can set up to access your Git repository and the pros and cons of each.");
 ?>
