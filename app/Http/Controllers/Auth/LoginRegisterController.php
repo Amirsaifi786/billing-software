@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers\Auth;
-
+use GuzzleHttp\Client;
 use App\Models\User;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
@@ -161,5 +161,26 @@ class LoginRegisterController extends Controller
         return redirect()->route('login')
             ->withSuccess('You have logged out successfully!');
     }    
+    public function searchGST(Request $request)
+    {
+        $gstNumber = $request->input('gst_number');
+
+        // Initialize Guzzle client
+        $client = new Client();
+
+        // Send the request to the external URL
+        $response = $client->request('POST', 'https://www.gstsearch.in/process.php', [
+            'form_params' => [
+                'gst_number' => $gstNumber,
+            ]
+        ]);
+
+        // Get the response content
+        $body = $response->getBody();
+        $result = json_decode($body, true);  // Assuming the response is in JSON format
+       dd( json_decode($body, true));
+        // Return the view with the GST details
+        return view('result', ['gstDetails' => $result]);
+    }
 
 }

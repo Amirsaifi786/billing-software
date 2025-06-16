@@ -11,12 +11,14 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Log;
 
 class UserController extends Controller {
-    // public function __construct() {
-    //     $this->middleware('permission:User add', ['only' => ['create']]);
-    //     $this->middleware('permission:User edit', ['only' => ['edit']]);
-    //     $this->middleware('permission:User delete', ['only' => ['destroy']]);
-    //     $this->middleware('permission:User list');
-    // }
+ public function __construct()
+{
+    $this->middleware('permission:User add', ['only' => ['create', 'store']]);
+    $this->middleware('permission:User edit', ['only' => ['edit', 'update']]);
+    $this->middleware('permission:User delete', ['only' => ['destroy']]);
+    $this->middleware('permission:User list', ['only' => ['index', 'show']]); // important
+}
+
 
     /**
      * Display a listing of the resource.

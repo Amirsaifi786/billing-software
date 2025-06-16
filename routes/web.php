@@ -16,9 +16,7 @@ use App\Http\Controllers\Auth\LoginRegisterController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
 
 Route::get('/register',[LoginRegisterController::class, 'register'])->name('register');
 Route::post('/store',[LoginRegisterController::class,  'store'])->name('store');
@@ -28,7 +26,11 @@ Route::get('/logout', [LoginRegisterController::class, 'logout'])->name('logout'
 
 Route::group(['middleware' => ['auth']], function() {
     // route for role and permissions
-    Route::get('/admin/dashboard',[LoginRegisterController::class,'dashboard'])->name('dashboard');
+    Route::post('/search-gst', [LoginRegisterController::class, 'searchGST'])->name('search.gst');
+    Route::get('/searchgst', function () {
+        return view('search');
+    });
+    Route::get('/',[LoginRegisterController::class,'dashboard'])->name('dashboard');
     Route::get('/admin/user/permission', [PermissionController::class,'index'])->name('permissionIndex');
     Route::get('/admin/user/permission/create', [PermissionController::class,'create'])->name('permissionCreate');
     Route::post('/admin/user/permission/store', [PermissionController::class,'store'])->name('permissionStore');

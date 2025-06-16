@@ -5,15 +5,17 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Spatie\Permission\Models\Permission;
 use Illuminate\Support\Facades\Log;
+use Spatie\Permission\Middleware\PermissionMiddleware;
+
 class PermissionController extends Controller
 {
-    //     public function __construct()
-    // {
-    //     $this->middleware('permission:Permission add',['only' => ['create']]);
-    //     $this->middleware('permission:Permission edit',['only' => ['edit']]);
-    //     $this->middleware('permission:Permission delete',['only' => ['destroy']]);
-    //     $this->middleware('permission:Permission list');
-    // }
+        public function __construct()
+    {
+        $this->middleware('permission:Permission add',['only' => ['create']]);
+        $this->middleware('permission:Permission edit',['only' => ['edit']]);
+        $this->middleware('permission:Permission delete',['only' => ['destroy']]);
+        $this->middleware('permission:Permission list');
+    }
     
     /**
      * Display a listing of the resource.
