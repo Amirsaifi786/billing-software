@@ -19,7 +19,7 @@
                             <select class="form-control" style="padding:11px;border-radius:5px" id="role" name="role" required>
                                 <label for="Select Role">Select Role:</label>
                                 <option selected>Select Role</option>
-                                <option value="1">Admin</option>
+                                <option value="1">Admin</option>   
                                 <option value="2">Staff</option>
                                 <option value="3">Client</option>
                             </select>
