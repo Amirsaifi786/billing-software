@@ -2,7 +2,7 @@
 
 <h3>Home Page of the Web</h3>
 
-<img src='https://github.com/Amirsaifi786/User_Role_Permission_And_Authorization_In_Laravel10/blob/main/screenshots/Screenshot 2025-06-17 154213.png'>
+<img src='https://github.com/Amirsaifi786/User_Role_Permission_And_Authorization_In_Laravel10/blob/main/screenshot/Screenshot 2025-06-17 154213.png'>
 
 This is a simple and powerful billing software built with **Laravel**. It allows you to manage customers, products, invoices, GST calculations, and reports efficiently.
 
