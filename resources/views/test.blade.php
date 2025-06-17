@@ -1,0 +1,1 @@
+This file is used to test the functionality of the application.
