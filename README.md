@@ -8,13 +8,9 @@ This is a simple and powerful billing software built with **Laravel**. It allows
 
 ## 🚀 Features
 
-- ✅ Customer Management (Add, Edit, Delete)
-- ✅ Product Inventory with Barcode
-- ✅ GST Handling (CGST, SGST, IGST)
-- ✅ Invoice Generation
-- ✅ PDF Export
-- ✅ Role-based Access Control
-- ✅ Search, Pagination & Filters
+- ✅ user Management (Add, Edit, Delete)
+- ✅ Role (Add, Edit, Delete)
+- ✅ Permission (Add, Edit, Delete)
 
 ## 🛠️ Built With
 
