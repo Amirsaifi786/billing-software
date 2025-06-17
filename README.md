@@ -1,49 +1,42 @@
-# user role and permission with spatie  – Laravel Application
+# User Role and Permission with Spatie – Laravel Application
 
-<h3>Admin Login</h3>
+### Admin Login
+![Admin Login](screenshot/adminlogin.png)
 
-<img src='https://github.com/Amirsaifi786/User_Role_Permission_And_Authorization_In_Laravel10/blob/main/screenshot/adminlogin.png'>
+### User List
+![User List](screenshot/userlist.png)
 
-<h3>User List</h3>
+### Add User
+![Add User](screenshot/useradd.png)
 
-<img src='https://github.com/Amirsaifi786/User_Role_Permission_And_Authorization_In_Laravel10/blob/main/screenshot/userlist.png'>
+### User Edit
+![User Edit](screenshot/useredit.png)
 
-<h3>Add User</h3>
+### Role List
+![Role List](screenshot/rolelist.png)
 
-<img src='https://github.com/Amirsaifi786/User_Role_Permission_And_Authorization_In_Laravel10/blob/main/screenshot/useradd.png'>
+### Role Add
+![Role Add](screenshot/roleadd.png)
 
-<h3>User Edit</h3>
+### Role Edit
+![Role Edit](screenshot/roleedit.png)
 
-<img src='https://github.com/Amirsaifi786/User_Role_Permission_And_Authorization_In_Laravel10/blob/main/screenshot/useredit.png'>
+### Permission List
+![Permission List](screenshot/permissionlist.png)
 
-<h3>Role List</h3>
+### Permission Add
+![Permission Add](screenshot/permissionadd.png)
 
-<img src='https://github.com/Amirsaifi786/User_Role_Permission_And_Authorization_In_Laravel10/blob/main/screenshot/rolelist.png'>
+### Permission Edit
+![Permission Edit](screenshot/permissionedit.png)
 
-<h3>Role Add</h3>
-
-<img src='https://github.com/Amirsaifi786/User_Role_Permission_And_Authorization_In_Laravel10/blob/main/screenshot/roleadd.png'>
-<h3>Role Edit</h3>
-
-<img src='https://github.com/Amirsaifi786/User_Role_Permission_And_Authorization_In_Laravel10/blob/main/screenshot/roleedit.png'>
-
-<h3>Permission List</h3>
-
-<img src='https://github.com/Amirsaifi786/User_Role_Permission_And_Authorization_In_Laravel10/blob/main/screenshot/permissionlist.png'>
-
-<h3>Permission Add</h3>
-
-<img src='https://github.com/Amirsaifi786/User_Role_Permission_And_Authorization_In_Laravel10/blob/main/screenshot/permissionadd.png'>
-<h3>Permission Edit</h3>
-
-<img src='https://github.com/Amirsaifi786/User_Role_Permission_And_Authorization_In_Laravel10/blob/main/screenshot/permissionedit.png'>
-This is a simple and powerful user role and permission with spatie built with **Laravel**. It allows you to manage user, role, permission.
+This is a simple and powerful user role and permission system built with **Laravel** using the **Spatie** package. It allows you to manage users, roles, and permissions easily.
 
 ## 🚀 Features
 
-- ✅ user Management (Add, Edit, Delete)
-- ✅ Role (Add, Edit, Delete)
-- ✅ Permission (Add, Edit, Delete)
+- ✅ User Management (Add, Edit, Delete)
+- ✅ Role Management (Add, Edit, Delete)
+- ✅ Permission Management (Add, Edit, Delete)
 
 ## 🛠️ Built With
 
@@ -52,16 +45,3 @@ This is a simple and powerful user role and permission with spatie built with **
 - MySQL
 - Bootstrap 5
 - JavaScript / jQuery
-
-## 📸 Screenshots
-
-> Main Invoice Page  
-![Invoice Screenshot](screenshot/image.jpg)
-
-> Customer Management  
-![Customer Screenshot](screenshot/customer.jpg)
-
-*(Add more screenshots in the `screenshot/` folder and reference them like above)*
-
-## 📂 Folder Structure
-
